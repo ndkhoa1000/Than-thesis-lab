@@ -1,0 +1,52 @@
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Sforrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+libc.so.6          000077091F245330  Unknown               Unknown  Unknown
+vasp_std           00000000005D1480  Unknown               Unknown  Unknown
+vasp_std           00000000006BC272  Unknown               Unknown  Unknown
+vasp_std           00000000006BBDD1  Unknown               Unknown  Unknown
+vasp_std           000000000072229B  Unknown               Unknown  Unknown
+vasp_std           0000000001146E0F  Unknown               Unknown  Unknown
+vasp_std           0000000001EFEF24  Unknown               Unknown  Unknown
+vasp_std           000000000040D9CD  Unknown               Unknown  Unknown
+libc.so.6          000077091F22A1CA  Unknown               Unknown  Unknown
+libc.so.6          000077091F22A28B  __libc_start_main     Unknowforrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+libc.so.6          0000716553645330  Unknown               Unknown  Unknown
+vasp_std           00000000005D1480  Unknown               Unknown  Unknown
+vasp_std           00000000006BC272  Unknown               Unknown  Unknown
+vasp_std           00000000006BBDD1  Unknown               Unknown  Unknown
+vasp_std           000000000072229B  Unknown               Unknown  Unknown
+vasp_std           0000000001146E0F  Unknown               Unknown  Unknown
+vasp_std           0000000001EFEF24  Unknown               Unknown  Unknown
+vasp_std           000000000040D9CD  Unknown               Unknown  Unknown
+libc.so.6          000071655362A1CA  Unknown               Unknown  Unknown
+libc.so.6          000071655362A28B  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040D8E5  Unknown               Unknown  Unknown
+n  Unknown
+vasp_std           000000000040D8E5  Unknown               Unknown  Unknown
+ource             
+libc.so.6          000072D2DC445330  Unknown               Unknown  Unknown
+vasp_std           00000000005D1480  Unknown               Unknown  Unknown
+vasp_std           00000000006BC272  Unknown               Unknown  Unknown
+vasp_std           00000000006BBDD1  Unknown               Unknown  Unknown
+vasp_std           000000000072229B  Unknown               Unknown  Unknown
+vasp_std           0000000001146E0F  Unknown               Unknown  Unknown
+vasp_std           0000000001EFEF24  Unknown               Unknown  Unknown
+vasp_std           000000000040D9CD  Unknown               Unknown  Unknown
+libc.so.6          000072D2DC42A1CA  Unknown               Unknown  Unknown
+libc.so.6          000072D2DC42A28B  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040D8E5  Unknown               Unknown  Unknown
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+libc.so.6          00007F4CDB245330  Unknown               Unknown  Unknown
+vasp_std           00000000005D1480  Unknown               Unknown  Unknown
+vasp_std           00000000006BC272  Unknown               Unknown  Unknown
+vasp_std           00000000006BBDD1  Unknown               Unknown  Unknown
+vasp_std           000000000072229B  Unknown               Unknown  Unknown
+vasp_std           0000000001146E0F  Unknown               Unknown  Unknown
+vasp_std           0000000001EFEF24  Unknown               Unknown  Unknown
+vasp_std           000000000040D9CD  Unknown               Unknown  Unknown
+libc.so.6          00007F4CDB22A1CA  Unknown               Unknown  Unknown
+libc.so.6          00007F4CDB22A28B  __libc_start_main     Unknown  Unknown
+vasp_std           000000000040D8E5  Unknown               Unknown  Unknown

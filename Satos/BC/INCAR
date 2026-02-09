@@ -1,0 +1,47 @@
+SYSTEM  = WSe2_QD_relax_optB86b-vdW
+
+# ---------- Start clean ----------
+ISTART  = 0
+ICHARG  = 2
+
+# ---------- Precision / SCF ----------
+ENCUT   = 500
+PREC    = Accurate
+EDIFF   = 1E-5
+NELM    = 120
+NELMIN  = 4
+ALGO    = Normal
+LREAL   = Auto
+LASPH   = .TRUE.
+LMAXMIX = 4
+ADDGRID = .TRUE.
+ISYM    = 0
+
+# ---------- Smearing ----------
+ISMEAR  = 0
+SIGMA   = 0.1
+
+# ---------- Spin ----------
+ISPIN   = 1
+# Nếu muốn spin thì mở 2 dòng dưới:
+# ISPIN  = 2
+# MAGMOM = 71*1
+
+# ---------- Ionic relaxation (keep cell) ----------
+NSW     = 150
+IBRION  = 2
+ISIF    = 2
+POTIM   = 0.5
+EDIFFG  = -0.02
+
+# ---------- vdW-DF nonlocal: optB86b-vdW ----------
+GGA      = MK
+LUSE_VDW = .TRUE.
+PARAM1   = 0.1234
+PARAM2   = 1.0
+AGGAC    = 0.0
+IVDW     = 0
+
+# ---------- Output (giảm I/O cho relax) ----------
+LWAVE   = .FALSE.
+LCHARG  = .FALSE.
